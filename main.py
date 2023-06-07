@@ -40,7 +40,8 @@ Welcome! Please make sure you have https://humanbenchmark.com/tests/reactiontime
 
 This program will run until either:
 1. The test is over. (unless otherwise specified using --loop)
-2. Your cursor goes to one of the 4 corners of your screen.
+2. Your cursor goes to one of the 4 corners of your screen while the program is attempting to click.
+3. You press CTRL + C while in the console you ran this program on.
 
 IMPORTANT: 
 Using --loop is NOT recommended.
