@@ -3,7 +3,7 @@ import cv2
 
 def start(loop=False):
     count = 0
-    image = cv2.imread("Images/aimtrainer.png")
+    image = cv2.imread("Images/aim.png")
 
     while count < 31 or loop: # 31 includes the very first target
         print(count)

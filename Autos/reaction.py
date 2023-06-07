@@ -3,7 +3,7 @@ import cv2
 
 def start(loop=False):
     count = 0
-    image = cv2.imread("Images/reactiontime.png")
+    image = cv2.imread("Images/reaction.png")
 
     while count < 5 or loop:
         if (location := pyautogui.locateOnScreen(image, grayscale=True)) is not None:
